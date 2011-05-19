@@ -1,0 +1,149 @@
+19 May 2011 16:59:59,329 INFO  ~ Starting /Users/ppassa/Projects/yabe
+19 May 2011 16:59:59,837 WARN  ~ You're running Play! in DEV mode
+19 May 2011 16:59:59,903 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+19 May 2011 17:00:17,166 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+19 May 2011 17:00:18,031 INFO  ~ Application 'yabe' is now started !
+19 May 2011 18:34:08,279 ERROR ~ 
+
+@66f0n8h9p
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/controllers/Application.java around line 17)
+The file /app/controllers/Application.java could not be compiled. Error raised is : The method render(Post, List&lt;Post>) is undefined for the type List&lt;Object>
+
+play.exceptions.CompilationException: The method render(Post, List<Post>) is undefined for the type List<Object>
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:304)
+	at play.Play.detectChanges(Play.java:555)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+19 May 2011 18:34:30,656 ERROR ~ 
+
+@66f0n8ha3
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/models/Post.java around line 19)
+The file /app/models/Post.java could not be compiled. Error raised is : The attribute cascaded is undefined for the annotation type OneToMany
+
+play.exceptions.CompilationException: The attribute cascaded is undefined for the annotation type OneToMany
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:304)
+	at play.Play.detectChanges(Play.java:555)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+19 May 2011 18:34:44,800 ERROR ~ 
+
+@66f0n8ha4
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/models/Comment.java around line 14)
+The file /app/models/Comment.java could not be compiled. Error raised is : Syntax error, insert ";" to complete FieldDeclaration
+
+play.exceptions.CompilationException: Syntax error, insert ";" to complete FieldDeclaration
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:336)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:137)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getType(PackageBinding.java:127)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.findType(Scope.java:1536)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getTypeOrPackage(Scope.java:2631)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getType(Scope.java:2328)
+	at org.eclipse.jdt.internal.compiler.ast.SingleTypeReference.getTypeBinding(SingleTypeReference.java:44)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.internalResolveType(TypeReference.java:131)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveType(TypeReference.java:203)
+	at org.eclipse.jdt.internal.compiler.ast.AllocationExpression.resolveType(AllocationExpression.java:248)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.resolveType(MessageSend.java:316)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.resolve(Expression.java:915)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:451)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:212)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:410)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1147)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1235)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:540)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:759)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:464)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:304)
+	at play.Play.detectChanges(Play.java:555)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+19 May 2011 18:34:59,770 ERROR ~ 
+
+@66f0n8ha5
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/models/Comment.java around line 9)
+The file /app/models/Comment.java could not be compiled. Error raised is : Modle cannot be resolved to a type
+
+play.exceptions.CompilationException: Modle cannot be resolved to a type
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:304)
+	at play.Play.detectChanges(Play.java:555)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+19 May 2011 18:35:06,758 ERROR ~ 
+
+@66f0n8ha6
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/Bootstrap.java around line 11)
+The file /app/Bootstrap.java could not be compiled. Error raised is : The method loadModles(String) is undefined for the type Fixtures
+
+play.exceptions.CompilationException: The method loadModles(String) is undefined for the type Fixtures
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:406)
+	at play.Play.start(Play.java:449)
+	at play.Play.detectChanges(Play.java:569)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+19 May 2011 18:35:18,135 ERROR ~ 
+
+@66f0n8ha7
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/Bootstrap.java around line 11)
+The file /app/Bootstrap.java could not be compiled. Error raised is : The method laodModels(String) is undefined for the type Fixtures
+
+play.exceptions.CompilationException: The method laodModels(String) is undefined for the type Fixtures
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:304)
+	at play.Play.detectChanges(Play.java:555)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+19 May 2011 18:36:54,463 ERROR ~ 
+
+@66f0n8ha8
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/Bootstrap.java around line 11)
+The file /app/Bootstrap.java could not be compiled. Error raised is : The method laodModels(String) is undefined for the type Fixtures
+
+play.exceptions.CompilationException: The method laodModels(String) is undefined for the type Fixtures
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:304)
+	at play.Play.detectChanges(Play.java:555)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
