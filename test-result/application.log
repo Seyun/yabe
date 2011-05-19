@@ -147,3 +147,163 @@ play.exceptions.CompilationException: The method laodModels(String) is undefined
 	at play.Play.detectChanges(Play.java:555)
 	at play.Invoker$Invocation.init(Invoker.java:186)
 	at Invocation.HTTP Request(Play!)
+19 May 2011 20:38:59,768 ERROR ~ 
+
+@66f0n8ha9
+Error during job execution (Bootstrap)
+
+Execution exception (In /app/Bootstrap.java around line 11)
+RuntimeException occured : Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+
+play.exceptions.JavaExecutionException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.jobs.Job.call(Job.java:166)
+	at Invocation.Job(Play!)
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:221)
+	at Bootstrap.doJob(Bootstrap.java:11)
+	at play.jobs.Job.doJobWithResult(Job.java:55)
+	at play.jobs.Job.call(Job.java:157)
+	... 1 more
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:186)
+	... 4 more
+19 May 2011 20:38:59,844 ERROR ~ 
+
+@66f0n8ha9
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/Bootstrap.java around line 11)
+RuntimeException occured : Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+
+play.exceptions.JavaExecutionException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.jobs.Job.call(Job.java:166)
+	at Invocation.Job(Play!)
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:221)
+	at Bootstrap.doJob(Bootstrap.java:11)
+	at play.jobs.Job.doJobWithResult(Job.java:55)
+	at play.jobs.Job.call(Job.java:157)
+	... 1 more
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:186)
+	... 4 more
+19 May 2011 20:39:18,211 ERROR ~ 
+
+@66f0n8haa
+Error during job execution (Bootstrap)
+
+Execution exception (In /app/Bootstrap.java around line 11)
+RuntimeException occured : Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+
+play.exceptions.JavaExecutionException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.jobs.Job.call(Job.java:166)
+	at Invocation.Job(Play!)
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:221)
+	at Bootstrap.doJob(Bootstrap.java:11)
+	at play.jobs.Job.doJobWithResult(Job.java:55)
+	at play.jobs.Job.call(Job.java:157)
+	... 1 more
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:186)
+	... 4 more
+19 May 2011 20:39:18,276 ERROR ~ 
+
+@66f0n8haa
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/Bootstrap.java around line 11)
+RuntimeException occured : Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+
+play.exceptions.JavaExecutionException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.jobs.Job.call(Job.java:166)
+	at Invocation.Job(Play!)
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:221)
+	at Bootstrap.doJob(Bootstrap.java:11)
+	at play.jobs.Job.doJobWithResult(Job.java:55)
+	at play.jobs.Job.call(Job.java:157)
+	... 1 more
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:186)
+	... 4 more
+19 May 2011 20:40:06,975 ERROR ~ 
+
+@66f0n8hab
+Error during job execution (Bootstrap)
+
+Execution exception (In /app/Bootstrap.java around line 11)
+RuntimeException occured : Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+
+play.exceptions.JavaExecutionException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.jobs.Job.call(Job.java:166)
+	at Invocation.Job(Play!)
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:221)
+	at Bootstrap.doJob(Bootstrap.java:11)
+	at play.jobs.Job.doJobWithResult(Job.java:55)
+	at play.jobs.Job.call(Job.java:157)
+	... 1 more
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:186)
+	... 4 more
+19 May 2011 20:40:07,036 ERROR ~ 
+
+@66f0n8hab
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/Bootstrap.java around line 11)
+RuntimeException occured : Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+
+play.exceptions.JavaExecutionException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.jobs.Job.call(Job.java:166)
+	at Invocation.Job(Play!)
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:221)
+	at Bootstrap.doJob(Bootstrap.java:11)
+	at play.jobs.Job.doJobWithResult(Job.java:55)
+	at play.jobs.Job.call(Job.java:157)
+	... 1 more
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:186)
+	... 4 more
+19 May 2011 20:41:06,958 ERROR ~ 
+
+@66f0n8hac
+Error during job execution (Bootstrap)
+
+Execution exception (In /app/Bootstrap.java around line 11)
+RuntimeException occured : Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+
+play.exceptions.JavaExecutionException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.jobs.Job.call(Job.java:166)
+	at Invocation.Job(Play!)
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:221)
+	at Bootstrap.doJob(Bootstrap.java:11)
+	at play.jobs.Job.doJobWithResult(Job.java:55)
+	at play.jobs.Job.call(Job.java:157)
+	... 1 more
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:186)
+	... 4 more
+19 May 2011 20:41:07,022 ERROR ~ 
+
+@66f0n8hac
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/Bootstrap.java around line 11)
+RuntimeException occured : Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+
+play.exceptions.JavaExecutionException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.jobs.Job.call(Job.java:166)
+	at Invocation.Job(Play!)
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:221)
+	at Bootstrap.doJob(Bootstrap.java:11)
+	at play.jobs.Job.doJobWithResult(Job.java:55)
+	at play.jobs.Job.call(Job.java:157)
+	... 1 more
+Caused by: java.lang.RuntimeException: Cannot load fixture initial-data.yml, duplicate id 'bob' for type models.User
+	at play.test.Fixtures.loadModels(Fixtures.java:186)
+	... 4 more
